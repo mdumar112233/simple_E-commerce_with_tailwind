@@ -1,5 +1,8 @@
 import hero from "./images/hero-img.svg";
 import menProduct1 from "./images/products/men/product1.jpg";
+import menProduct2 from "./images/products/men/product2.jpg";
+import menProduct3 from "./images/products/men/product3.jpg";
+import menProduct4 from "./images/products/men/product4.jpg";
 
 function App() {
   return (
@@ -125,7 +128,7 @@ function App() {
 
         <div className="shadow-lg ">
           <a href="#">
-            <img src={menProduct1} alt="" className="rounded-tl-lg rounded-tr-lg" />
+            <img src={menProduct2} alt="" className="rounded-tl-lg rounded-tr-lg" />
           </a>
           <div className="p-5">
             <h3><a href="#">Men's T-shirt</a></h3>
@@ -158,7 +161,7 @@ function App() {
 
         <div className="shadow-lg ">
           <a href="#">
-            <img src={menProduct1} alt="" className="rounded-tl-lg rounded-tr-lg" />
+            <img src={menProduct3} alt="" className="rounded-tl-lg rounded-tr-lg" />
           </a>
           <div className="p-5">
             <h3><a href="#">Men's T-shirt</a></h3>
@@ -191,7 +194,7 @@ function App() {
 
         <div className="shadow-lg ">
           <a href="#">
-            <img src={menProduct1} alt="" className="rounded-tl-lg rounded-tr-lg" />
+            <img src={menProduct4} alt="" className="rounded-tl-lg rounded-tr-lg" />
           </a>
           <div className="p-5">
             <h3><a href="#">Men's T-shirt</a></h3>
